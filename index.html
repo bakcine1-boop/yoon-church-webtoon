@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>윤씨네 교회 정착기 · 감리교다움</title>
+<meta name="description" content="이사 온 윤씨네 가족이 동네 감리교회에 정착해 가는 1년. 1~2화 시범 연재">
+<meta property="og:title" content="윤씨네 교회 정착기 · 감리교다움">
+<meta property="og:description" content="1화 「세 바퀴째」 · 2화 「예배 3분 전」">
+<meta property="og:image" content="https://bakcine1-boop.github.io/yoon-church-webtoon/og.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://bakcine1-boop.github.io/yoon-church-webtoon/">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Serif+KR:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:#E9E4DA}
+body{font-family:'Pretendard',-apple-system,'Apple SD Gothic Neo',sans-serif;color:#1E2433;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+.app{max-width:560px;margin:0 auto;background:#FBF9F5;min-height:100vh;container-type:inline-size}
+.top{position:sticky;top:0;z-index:20;display:flex;gap:6px;align-items:center;justify-content:space-between;padding:10px 14px;background:rgba(251,249,245,.95);backdrop-filter:blur(8px);border-bottom:1px solid #E6DFD2}
+.top b{font-size:15px}
+.top nav a{font-size:13px;font-weight:600;color:#7A7262;text-decoration:none;padding:6px 8px;border-radius:99px}
+.top nav a.on{background:#1E2433;color:#fff}
+.draft{font-size:11px;letter-spacing:.02em;color:#A0522D;text-align:center;padding:6px 0;background:#FFF4EA;border-bottom:1px solid #F1DCC7}
+.ep{padding-bottom:40px}
+.ep-head{padding:56px 24px 40px;text-align:center}
+.ep-head .s{font-size:12px;color:#8C8473;letter-spacing:.12em}
+.ep-head h1{font-family:'Noto Serif KR',serif;font-size:clamp(24px,7cqw,32px);margin:12px 0 6px;letter-spacing:-.02em}
+.ep-head .n{font-size:13px;color:#8C8473}
+.pn{position:relative;margin:0 0 28px}
+.pn>img{display:block;width:100%}
+/* 말풍선 */
+.b{position:absolute;transform:translateX(-50%);background:#fff;border:2px solid #2A2A2A;border-radius:22px;padding:.5em .85em;font-size:clamp(13px,3.7cqw,17px);font-weight:600;line-height:1.38;text-align:center;max-width:56%;width:max-content;box-shadow:0 2px 0 rgba(0,0,0,.06);z-index:2}
+.b::after{content:'';position:absolute;bottom:-11px;left:var(--tx,50%);transform:translateX(-50%);border:9px solid transparent;border-top:12px solid #2A2A2A;border-bottom:0}
+.b::before{content:'';position:absolute;bottom:-7px;left:var(--tx,50%);transform:translateX(-50%);border:7px solid transparent;border-top:9px solid #fff;border-bottom:0;z-index:1}
+.b.nt::after,.b.nt::before{display:none}
+.b.think{border-style:dashed;border-color:#6A6A6A;color:#3D3D3D;font-weight:500;border-radius:999px;padding:.55em 1.1em}
+.b.think::after,.b.think::before{display:none}
+.b.whis{border-style:dotted;font-weight:500;font-size:clamp(12px,3.4cqw,15px)}
+.b.shout{font-weight:800;font-size:clamp(15px,4.4cqw,21px);border-width:3px;border-radius:14px}
+.b.spk{background:#FFF8DC;border:3px double #3A3A3A;border-radius:10px;font-weight:700}
+.b.spk::before{border-top-color:#FFF8DC}
+.b .who{display:block;font-size:.72em;font-weight:600;color:#8A8270;margin-bottom:2px}
+.sfx{position:absolute;transform:translateX(-50%) rotate(var(--r,-6deg));font-weight:900;font-size:clamp(18px,6cqw,30px);color:var(--c,#E2574C);-webkit-text-stroke:5px #fff;paint-order:stroke fill;letter-spacing:-.02em;white-space:nowrap;z-index:2}
+.cap{position:absolute;background:#1E2433;color:#fff;font-size:clamp(12px,3.4cqw,15px);font-weight:700;padding:.35em .8em;border-radius:4px;z-index:2}
+/* 칸 밖 대사 줄 */
+.gut{display:flex;flex-direction:column;gap:18px;padding:6px 18px 22px}
+.gut.post{padding:18px 18px 6px}
+.gut .b{position:relative;transform:none;left:auto;top:auto;max-width:78%}
+.gut .l{align-self:flex-start}.gut .r{align-self:flex-end}.gut .c{align-self:center}
+.gut.post .b::after{bottom:auto;top:-11px;border-top:0;border-bottom:12px solid #2A2A2A}
+.gut.post .b::before{bottom:auto;top:-7px;border-top:0;border-bottom:9px solid #fff}
+.pause{height:120px;display:flex;align-items:center;justify-content:center;color:#B9B1A1;font-size:20px;letter-spacing:.4em}
+/* 카드 */
+.card-black{background:#111;color:#fff;height:62cqw;display:flex;align-items:center;justify-content:center;font-family:'Noto Serif KR',serif;font-size:clamp(22px,6.5cqw,30px);letter-spacing:.06em;margin:0 0 28px}
+.today{margin:36px 18px 22px;background:#F3EEE3;border-radius:18px;padding:26px 22px 22px;border:1px solid #E2D8C4}
+.today .k{font-size:12px;font-weight:700;letter-spacing:.14em;color:#3E6B4E}
+.today .q{font-family:'Noto Serif KR',serif;font-size:clamp(18px,5cqw,22px);font-weight:700;margin:10px 0 14px;line-height:1.45}
+.today p{font-size:15px;line-height:1.75;color:#3B3F4A}
+.today .src{margin-top:14px;font-size:12px;color:#8C8473}
+.next{margin:26px 18px 10px;text-align:center;padding:22px 16px;border-top:1px solid #E6DFD2}
+.next .k{font-size:12px;color:#8C8473;letter-spacing:.1em}
+.next .t{font-family:'Noto Serif KR',serif;font-size:clamp(16px,4.6cqw,20px);margin-top:8px;line-height:1.5}
+.foot{font-size:11px;color:#9A927F;text-align:center;padding:26px 20px 40px;line-height:1.7}
+/* 휴대폰 화면 */
+.scr{display:flex;justify-content:center;padding:26px 0;background:#EFEAE0;margin:0 0 28px}
+.phone{width:74%;background:#fff;border-radius:30px;border:7px solid #1C1C1E;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.phone .sb{display:flex;justify-content:space-between;font-size:11px;font-weight:600;padding:8px 16px 4px;color:#111}
+.phone .hd{font-size:14px;font-weight:700;padding:8px 14px;border-bottom:1px solid #eee;display:flex;justify-content:space-between}
+.phone .hd span{color:#999;font-weight:500}
+.chat{background:#B8CCDD;padding:12px 10px 16px;display:flex;flex-direction:column;gap:7px}
+.m{max-width:78%;font-size:13.5px;line-height:1.4;padding:7px 10px;border-radius:12px;background:#fff}
+.m .nm{display:block;font-size:11px;color:#555;margin-bottom:2px;font-weight:600}
+.m.me{align-self:flex-end;background:#FEE75C}
+.m.sms{background:#E9E9EB;border-radius:16px;font-size:14px}
+.m.smsme{align-self:flex-end;background:#2F80ED;color:#fff}
+.sms-area{padding:14px 12px 18px;display:flex;flex-direction:column;gap:8px;background:#fff}
+.ts{align-self:center;font-size:11px;color:#999}
+.lock{background:linear-gradient(160deg,#3B4C6B,#7A6A8C);padding:18px 10px 20px;color:#fff}
+.lock .clk{text-align:center;font-size:44px;font-weight:300;letter-spacing:.02em}
+.lock .dt{text-align:center;font-size:12px;opacity:.85;margin-bottom:14px}
+.nt{background:rgba(255,255,255,.82);color:#111;border-radius:14px;padding:8px 11px;margin-bottom:7px;font-size:12.5px;line-height:1.35}
+.nt b{display:flex;justify-content:space-between;font-size:12px}
+.nt b span{font-weight:500;color:#777}
+.badge{display:inline-block;background:#E5484D;color:#fff;border-radius:99px;font-size:11px;padding:1px 7px;margin-left:4px}
+.call{background:linear-gradient(180deg,#2B2F3A,#14161C);color:#fff;text-align:center;padding:36px 12px 26px}
+.call .who{font-size:28px;font-weight:600}
+.call .st{font-size:13px;opacity:.7;margin-top:6px}
+.call .btns{display:flex;justify-content:center;gap:22px;margin-top:40px}
+.call .btns i{width:54px;height:54px;border-radius:50%;background:rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-style:normal;font-size:11px;position:relative}
+.call .btns i.on{background:#fff;color:#111;font-weight:700}
+.call .btns i.end{background:#E5484D}
+.tap{position:absolute;right:-14px;top:-18px;font-weight:900;color:#FFD54A;font-size:18px;transform:rotate(10deg)}
+.bat{background:#202124;color:#fff;padding:30px 14px;text-align:center}
+.bat .ic{display:inline-block;width:86px;height:38px;border:3px solid #fff;border-radius:8px;position:relative;margin:10px 0}
+.bat .ic::after{content:'';position:absolute;right:-9px;top:10px;width:5px;height:12px;background:#fff;border-radius:0 3px 3px 0}
+.bat .ic i{position:absolute;left:3px;top:3px;bottom:3px;width:4px;background:#E5484D;border-radius:2px}
+.bat .pc{font-size:30px;font-weight:700;color:#FF6B6B}
+/* 주보 */
+.paper{width:80%;background:#FFFEFA;border-radius:6px;box-shadow:0 8px 24px rgba(0,0,0,.12);padding:22px 22px 18px;transform:rotate(-1.2deg)}
+.paper .h{font-family:'Noto Serif KR',serif;font-size:13px;color:#3E6B4E;text-align:center;letter-spacing:.08em}
+.paper .d{text-align:center;font-family:'Noto Serif KR',serif;font-size:16px;font-weight:700;margin:4px 0 12px}
+.paper ol{list-style:none;font-size:13.5px;line-height:2.0;color:#333}
+.paper li{display:flex;justify-content:space-between;border-bottom:1px dotted #DDD}
+.paper li em{font-style:normal;font-family:'Nanum Pen Script',cursive;font-size:22px;color:#1D4ED8;line-height:1}
+.paper .memo{font-family:'Nanum Pen Script',cursive;font-size:24px;color:#1D4ED8;margin-top:8px;text-align:right}
+.screen-cap{position:absolute;left:50%;top:6%;transform:translateX(-50%);background:rgba(30,36,51,.88);color:#fff;font-size:clamp(12px,3.5cqw,15px);padding:.4em 1em;border-radius:6px;z-index:2;white-space:nowrap}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top"><b>윤씨네 교회 정착기</b><nav id="nav"></nav></div>
+  <div class="draft">시범 연재 시안 · 독자 의견을 듣고 다듬는 중입니다</div>
+  <main id="main"></main>
+</div>
+<script>
+// 말풍선: k=종류(say/think/whis/shout/spk/sfx/cap), x,y=칸 안 위치(%), tx=꼬리 위치(%), w=최대 폭(%)
+const S=(t,o={})=>({k:'say',t,...o});
+const EP={
+1:{title:'세 바퀴째',panels:[
+ {img:'ep01_01',over:[{k:'cap',t:'1년 뒤',x:4,y:3},{k:'say',t:'여기요~ 여기 자리 있어요!',x:36,y:73,tx:22}]},
+ {card:'1년 전'},
+ {img:'ep01_03',over:[S('내일… 교회 가 보자.',{x:72,y:2,tx:60}),S('…교회? 우리가?',{x:26,y:9,tx:40}),{k:'shout',t:'교회 가면 간식 줘요?!',x:47,y:17,tx:55,w:44}]},
+ {screen:'chat1'},
+ {screen:'sms1'},
+ {img:'ep01_06b'},
+ {img:'ep01_07b',pre:[S('저기 자리 있는데.',{a:'r',tx:80}),S('저기 말고…',{a:'l',tx:20}),S('저기도.',{a:'r',tx:80}),S('거긴… 입구에서 너무 잘 보여.',{a:'l',tx:20})],over:[{k:'sfx',t:'두 바퀴째',x:50,y:44,c:'#2563EB'}]},
+ {img:'ep01_08b',over:[{k:'sfx',t:'세 바퀴째',x:74,y:86,c:'#E2574C',r:'-8deg'}],post:[{k:'think',t:'(엄마 왜 저래…)',a:'l',who:'하은'}]},
+ {img:'ep01_09b',pre:[S('…여보. 그냥 집에 갈까?',{a:'r',tx:80})]},
+ {pause:1},
+ {img:'ep01_09b',crop:1,post:[S('…아니. 세우자.',{a:'l',tx:20})]},
+ {img:'ep01_10b',pre:[{k:'shout',t:'여기요! 저 왔어요!',a:'r',tx:30},S('어머, 어서 오세요~!',{a:'r',tx:85})]},
+ {img:'ep01_11b',over:[{k:'think',t:'(10년 만이다.)',x:33,y:5},{k:'sfx',t:'지잉—',x:18,y:80,c:'#7C3AED',r:'-12deg'}]},
+ {screen:'sms2'},
+ {img:'ep01_13',pre:[S('처음 오셨죠? 들어오세요. 천천히요.',{a:'r',tx:82})],post:[{k:'think',t:'(…들어가도 될까.)',a:'l',who:'엄마'}]},
+ {today:{q:'처음 교회에 오면 어떤 마음이 들까요?',p:'낯설고 조심스러운 게 당연합니다. 오래 다니다 쉬었던 사람에게 \'다시 처음\'은 더 어렵습니다. 몰라도 괜찮고, 천천히 와도 괜찮습니다.',src:'원작 1화 「처음 교회에 오면 어떤 마음이 들까요?」에서'}},
+ {next:'예배 3분 전, 엄마 가방 속에서 무언가 울린다.'}
+]},
+2:{title:'예배 3분 전',panels:[
+ {img:'ep02_01b',over:[S('왜 다들 뒤에만…',{x:28,y:14,tx:55}),S('앞자리는 늘 비어 있어요~ 새가족 특석이에요, 호호',{x:68,y:27,tx:72,w:52})]},
+ {img:'ep02_02b',over:[{k:'whis',t:'엄마, 저 초록색 천은 왜 깔려 있어요?',x:52,y:5,tx:45,w:50},S('쉿.',{x:30,y:20,tx:50})]},
+ {img:'ep02_03b',over:[{k:'cap',t:'예배 전 조용한 기도',x:4,y:4},{k:'sfx',t:'띠링',x:80,y:17,c:'#2563EB',r:'6deg'},{k:'think',t:'(조용한 기도… 무엇을?)',x:58,y:24}]},
+ {screen:'bat',post:[{k:'think',t:'(1%. 예배 끝까지만 버텨라.)',a:'r',who:'하은'}]},
+ {img:'ep02_05b',over:[{k:'think',t:'(뭐라고 하지. 10년 만인데.)',x:34,y:4},{k:'think',t:'(…안녕하세요?)',x:70,y:13}]},
+ {img:'ep02_06b',over:[{k:'sfx',t:'띠리리리링♪',x:36,y:20,c:'#E2574C',r:'-8deg'}]},
+ {img:'ep02_07b',over:[{k:'sfx',t:'부스럭 부스럭',x:50,y:8,c:'#8B5E34',r:'-4deg'}],post:[{k:'think',t:'(엄마 가방은 왜 늘 다 있는데 폰만 없어)',a:'r',who:'하은'}]},
+ {screen:'call'},
+ {img:'ep02_09',over:[{k:'spk',t:'지연아~~ 교회 잘 갔냐~?',x:50,y:6,tx:45,who:'스피커'},S('외할머니다!',{x:62,y:22,tx:30})]},
+ {img:'ep02_10',pre:[{k:'spk',t:'엄마가 그동안 기도 많이 했다~ 십 년을…',a:'c',who:'스피커'}]},
+ {img:'ep02_11',over:[S('…엄마, 이따가.',{x:72,y:6,tx:40}),{k:'whis',t:'우리 엄마도 맨날 그랬어.',x:28,y:17,tx:35}]},
+ {img:'ep02_12',over:[S('하나님 앞으로 나아갑시다.',{x:66,y:10,tx:60})]},
+ {today:{q:'예배 전에 왜 조용히 기도할까요?',p:'예배는 시간이 되면 시작되는 행사가 아니라 하나님 앞에 나아가는 시간입니다. 조용한 기도는 마음을 모으는 준비입니다. 할 말이 떠오르지 않으면 "왔습니다" 한마디도 기도가 됩니다. (휴대폰은 무음으로!)',src:'원작 2화 「예배란 무엇입니까?」에서'}},
+ {next:'"오늘 처음 오신 분, 계시면 잠깐 일어나 주시겠어요?"'}
+]}
+};
+
+const SCR={
+chat1:`<div class="phone"><div class="sb"><span>23:41</span><span>●●● 42%</span></div><div class="hd">중딩즈 <span>4</span></div><div class="chat">
+<div class="m me">나 내일 교회 끌려감</div><div class="m"><span class="nm">수빈</span>?? 너네 교회 다녔음?</div>
+<div class="m me">엄마가 갑자기</div><div class="m"><span class="nm">예린</span>ㅋㅋㅋ 살아서 돌아와라</div><div class="m me">배터리 1%면 죽은 줄 알아</div></div></div>`,
+sms1:`<div class="phone"><div class="sb"><span>23:58</span><span>●●● 71%</span></div><div class="hd">엄마 <span>문자</span></div><div class="sms-area">
+<div class="ts">토요일 오후 11:58</div><div class="m sms">지연아 짐은 다 풀었냐. 그 동네에 감리교회 하나 있다더라. 언덕 위에. 가라는 말은 아니고. 엄마는 기도만 한다.</div></div></div>`,
+sms2:`<div class="phone"><div class="sb"><span>10:57</span><span>●●● 64%</span></div><div class="hd">엄마 <span>문자</span></div><div class="sms-area">
+<div class="m sms">지연아 짐은 다 풀었냐. 그 동네에 감리교회 하나 있다더라. 언덕 위에. 가라는 말은 아니고. 엄마는 기도만 한다.</div><div class="ts">일요일 오전 10:57</div><div class="m sms">엄마 지금 기도한다</div></div></div>`,
+bat:`<div class="phone"><div class="bat"><div style="font-size:12px;opacity:.7">배터리 부족</div><div class="ic"><i></i></div><div class="pc">1%</div><div style="font-size:12px;opacity:.7;margin-top:6px">저전력 모드를 켜시겠습니까?</div></div></div>`,
+call:`<div class="phone"><div class="call"><div class="who">엄마</div><div class="st">00:03</div><div class="btns"><i>음소거</i><i class="end">종료</i><i class="on">스피커<b class="tap">톡</b></i></div></div></div>`
+};
+
+function bub(o,inGut){
+  const k=o.k||'say';
+  if(k==='sfx') return `<div class="sfx" style="left:${o.x}%;top:${o.y}%;--c:${o.c||'#E2574C'};--r:${o.r||'-6deg'}">${o.t}</div>`;
+  if(k==='cap') return `<div class="cap" style="left:${o.x}%;top:${o.y}%">${o.t}</div>`;
+  const cls=['b',k==='say'?'':k,o.nt?'nt':'',inGut?(o.a||'c'):''].join(' ');
+  const st=inGut?`--tx:${o.tx||50}%`:`left:${o.x}%;top:${o.y}%;--tx:${o.tx||50}%;${o.w?`max-width:${o.w}%`:''}`;
+  return `<div class="${cls}" style="${st}">${o.who?`<span class="who">${o.who}</span>`:''}${o.t}</div>`;
+}
+function render(n){
+  const e=EP[n]; let h=`<section class="ep" id="ep${n}"><div class="ep-head"><div class="s">윤씨네 교회 정착기 · 시즌 1</div><h1>${n}화 「${e.title}」</h1><div class="n">감리교다움</div></div>`;
+  for(const p of e.panels){
+    if(p.card){h+=`<div class="card-black pn">${p.card}</div>`;continue}
+    if(p.pause){h+=`<div class="pause pn">· · ·</div>`;continue}
+    if(p.screen){h+=`<div class="pn"><div class="scr" style="margin:0">${SCR[p.screen]}</div>${p.post?`<div class="gut post">${p.post.map(o=>bub(o,1)).join('')}</div>`:''}</div>`;continue}
+    if(p.today){h+=`<div class="today pn"><div class="k">오늘의 한 장</div><div class="q">Q. ${p.today.q}</div><p>${p.today.p}</p><div class="src">${p.today.src}</div></div>`;continue}
+    if(p.next){h+=`<div class="next pn"><div class="k">다음 화 예고</div><div class="t">${p.next}</div></div>`;continue}
+    h+=`<div class="pn">`;
+    if(p.pre) h+=`<div class="gut">${p.pre.map(o=>bub(o,1)).join('')}</div>`;
+    if(p.crop) h+=`<div style="position:relative;overflow:hidden;aspect-ratio:2/1"><img src="${p.img}.jpg" style="width:160%;position:absolute;left:0;top:-250%" alt=""></div>`;
+    else h+=`<div style="position:relative"><img src="${p.img}.jpg" alt="" style="display:block;width:100%">${(p.over||[]).map(o=>bub(o)).join('')}</div>`;
+    if(p.post) h+=`<div class="gut post">${p.post.map(o=>bub(o,1)).join('')}</div>`;
+    h+=`</div>`;
+  }
+  h+=`<div class="foot">원작: 베다니 한인연합감리교회 웹툰 「베다니다움 감리교다움」(박대성 목사)<br>한국교회판 재구성 시안</div></section>`;
+  return h;
+}
+const qs=new URLSearchParams(location.search);
+let cur=+(qs.get('ep')||location.hash.slice(1)||1); if(![1,2].includes(cur)) cur=1;
+document.getElementById('nav').innerHTML=[1,2].map(n=>`<a href="?ep=${n}" class="${n===cur?'on':''}">${n}화</a>`).join('');
+document.getElementById('main').innerHTML=render(cur);
+</script>
+</body>
+</html>
